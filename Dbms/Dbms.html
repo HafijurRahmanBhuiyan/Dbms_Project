@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comprehensive Heart Health Monitoring System</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Comprehensive Heart Health Monitoring System</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#patient-demographics">Patient Demographics</a></li>
+            <li><a href="#patient-diagnosis">Patient Diagnosis</a></li>
+            <li><a href="#physician-info">Physician Information</a></li>
+            <li><a href="#facilities-info">Facilities Information</a></li>
+            <li><a href="#recommendations">Recommendations</a></li>
+            <li><a href="#prescriptions">Prescriptions</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section id="patient-demographics">
+            <h2>Manage Patient Demographic Data</h2>
+            <form>
+                <label for="patient-name">Name:</label>
+                <input type="text" id="patient-name" name="patient-name" required><br>
+                <label for="patient-age">Age:</label>
+                <input type="number" id="patient-age" name="patient-age" required><br>
+                <label for="patient-gender">Gender:</label>
+                <select id="patient-gender" name="patient-gender">
+                    <option value="male">Male</option>
+                    <option value="female">Female</option>
+                    <option value="other">Other</option>
+                </select><br>
+                <label for="contact-details">Contact Details:</label>
+                <input type="text" id="contact-details" name="contact-details" required><br>
+                <label for="address">Address:</label>
+                <input type="text" id="address" name="address" required><br>
+                <label for="emergency-contact">Emergency Contact:</label>
+                <input type="text" id="emergency-contact" name="emergency-contact" required><br>
+                <input type="submit" value="Submit">
+            </form>
+        </section>
+        <section id="patient-diagnosis">
+            <h2>Manage Patient Diagnosis Data</h2>
+            <form>
+                <label for="diagnosis-date">Diagnosis Date:</label>
+                <input type="date" id="diagnosis-date" name="diagnosis-date" required><br>
+                <label for="heart-condition">Heart Condition:</label>
+                <input type="text" id="heart-condition" name="heart-condition" required><br>
+                <label for="severity">Severity:</label>
+                <input type="text" id="severity" name="severity" required><br>
+                <label for="doctor-notes">Doctor Notes:</label>
+                <textarea id="doctor-notes" name="doctor-notes" required></textarea><br>
+                <input type="submit" value="Submit">
+            </form>
+        </section>
+        <section id="physician-info">
+            <h2>Manage Relevant Physicians’ Information</h2>
+            <form>
+                <label for="physician-name">Name:</label>
+                <input type="text" id="physician-name" name="physician-name" required><br>
+                <label for="specialization">Specialization:</label>
+                <input type="text" id="specialization" name="specialization" required><br>
+                <label for="contact-info">Contact Info:</label>
+                <input type="text" id="contact-info" name="contact-info" required><br>
+                <label for="affiliated-facilities">Affiliated Facilities:</label>
+                <input type="text" id="affiliated-facilities" name="affiliated-facilities" required><br>
+                <input type="submit" value="Submit">
+            </form>
+        </section>
+        <section id="facilities-info">
+            <h2>Manage Hospitals, Diagnosis Centers, and Other Related Facilities Information</h2>
+            <form>
+                <label for="facility-name">Facility Name:</label>
+                <input type="text" id="facility-name" name="facility-name" required><br>
+                <label for="facility-type">Type:</label>
+                <input type="text" id="facility-type" name="facility-type" required><br>
+                <label for="facility-location">Location:</label>
+                <input type="text" id="facility-location" name="facility-location" required><br>
+                <label for="facility-contact">Contact Info:</label>
+                <input type="text" id="facility-contact" name="facility-contact" required><br>
+                <label for="services-offered">Services Offered:</label>
+                <input type="text" id="services-offered" name="services-offered" required><br>
+                <input type="submit" value="Submit">
+            </form>
+        </section>
+        <section id="recommendations">
+            <h2>Recommend Appropriate Diet, Tests, and Facilities</h2>
+            <form>
+                <label for="patient-condition">Patient's Heart Condition:</label>
+                <input type="text" id="patient-condition" name="patient-condition" required><br>
+                <label for="recommended-diet">Recommended Diet:</label>
+                <textarea id="recommended-diet" name="recommended-diet" required></textarea><br>
+                <label for="recommended-tests">Recommended Tests:</label>
+                <textarea id="recommended-tests" name="recommended-tests" required></textarea><br>
+                <label for="recommended-facilities">Recommended Facilities:</label>
+                <textarea id="recommended-facilities" name="recommended-facilities" required></textarea><br>
+                <input type="submit" value="Submit">
+            </form>
+        </section>
+        <section id="prescriptions">
+            <h2>Track Medicine Prescribed to the Patient</h2>
+            <form>
+                <label for="medicine-name">Medicine Name:</label>
+                <input type="text" id="medicine-name" name="medicine-name" required><br>
+                <label for="dosage">Dosage:</label>
+                <input type="text" id="dosage" name="dosage" required><br>
+                <label for="frequency">Frequency:</label>
+                <input type="text" id="frequency" name="frequency" required><br>
+                <label for="prescribing-physician">Prescribing Physician:</label>
+                <input type="text" id="prescribing-physician" name="prescribing-physician" required><br>
+                <label for="start-date">Start Date:</label>
+                <input type="date" id="start-date" name="start-date" required><br>
+                <label for="end-date">End Date:</label>
+                <input type="date" id="end-date" name="end-date" required><br>
+                <input type="submit" value="Submit">
+            </form>
+        </section>
+    </main>
+</body>
+</html>
